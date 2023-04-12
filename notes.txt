@@ -1,0 +1,49 @@
+Note: WE CAN AUTOMATE BROWSER IN TWO WAYS USING NODE.JS
+1: SILENIUM  : VERY RARELY USED
+2: PUPPETEER : IT IS AN OPENSOURCE LIBRARY USED IN AUTOMATION(IT INSTALL CHROMIUM BROWSER WITH IT)
+
+IN NODE.JS FOR AUTOMATION THERE IS MODULE CALLED PUPPETEER
+WITH PUPPETEER CHROMIUM BROWSER IS INSTALLED
+
+CHROMIUM BROWSER : IT IS AN OPEN SOURCE BROWSER AND IT IS DEVELOPED BY GOOGLE
+CHROME : THIS IS FOR NORMAL USER(IT'S CODE IS NOT OPEN AND IT'S CODE IS DERIVED BY CHROMIUM BROWSER)
+CANARI : IT IS UPDATE DAILY AND IT IS NIGHTLY BUILT
+
+WORKING : NODE.JS --> PUPPETEER  --> CHROMIUM  --> (IN CHROMIUM AUTOMATION STARTED)
+
+FEATURES OF PUPPETEER
+PUPPETEER HAS FOLLOWING CLASSES
+
+1: PUPPETEER
+It have one function through which broser opened(at the time of opening we get the object named browser context)
+
+2: BRWOSER FETCHER
+If we want to use any other brower other than CHROMIUM then we have to use brower fetcher 
+
+3: PAGE
+All the tab is represented by page.
+It will give tha array of open pages inside the browser.
+By default there is only 1 tab in pages array.
+
+4: KEYBOARD
+All the action done using keyboard(key press and all)
+
+5: MOUSE
+All the action done using mouse (on click and all)
+
+6: TOUCHSCREEN
+It also supports touch screen actions
+
+7: FILE CHOOSER
+Upload feature is handled by file chooser(just like we choose files , videos from the memory)
+Download is also handled by it.
+
+8: FRAME
+
+9: WORKER
+We can do parallel work using worker.
+
+NOTE : AROUND EVERY FUNCTIONS OF PUPPETEER RETURNS PROMISE
+
+HEADLESS BROWSER : PUPPETEER runs a headless browser
+By default our browser is headless it means it is not visible but it will do our work.
