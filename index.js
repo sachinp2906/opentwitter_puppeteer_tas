@@ -48,7 +48,7 @@ openBrowser.then(function (browser) {
   })
   .catch(function(error) {
     // using catch to handle the error
-    console.log(err)
+    console.log(error)
   })
 
 console.log("end")
